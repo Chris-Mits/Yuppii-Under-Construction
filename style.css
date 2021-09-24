@@ -7,6 +7,7 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+	overflow: hidden;
 }
 
 body {
@@ -42,6 +43,14 @@ header h1:nth-of-type(2) {
 	margin: 5px 0px 20px 0px;
 }
 
+div.fa-stack {
+	width: 100%;
+}
+
+div.mobile {
+	display: none;
+}
+
 i {
 	color: #fff;
 	text-align: center;
@@ -51,5 +60,13 @@ i {
 @media (max-width: 400px) {
 	header h1 {
 		font-size: 25px;
+	}
+	
+	div.desktop {
+		display: none;
+	}
+	
+	div.mobile {
+		display: block;
 	}
 }
