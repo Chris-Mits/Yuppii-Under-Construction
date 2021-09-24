@@ -1,0 +1,55 @@
+@font-face {
+	font-family: 'Ropa Sans Pro';
+	src: url('fonts/lettersoup\ -\ RopaSansPro-Regular.otf');
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Ropa Sans Pro';
+	background-color: #72CBC2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.logo {
+	margin: auto;
+}
+
+.logo img {
+	width: 80%;
+	height: 100%;
+	display: block;
+	margin: 0px auto;
+}
+
+header h1 {
+	color: #fff;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 30px;
+	letter-spacing: 2px;
+}
+
+header h1:nth-of-type(2) {
+	margin: 5px 0px 20px 0px;
+}
+
+i {
+	color: #fff;
+	text-align: center;
+	width: 100%;
+}
+
+@media (max-width: 400px) {
+	header h1 {
+		font-size: 25px;
+	}
+}
